@@ -16,3 +16,6 @@ ACTUALIZACION:
 Para hacer el inicio de sesión en Laravel, primero usé un comando para crear un controlador nuevo. Escribí php artisan make:controller Auth\\AuthenticatedSessionController en la terminal. Esto creó un archivo donde pondríamos todo lo relacionado con el inicio y cierre de sesión.
 
 Después, dentro de ese archivo que creamos, añadí las funciones necesarias. Una fue para mostrar el formulario donde los usuarios ingresan su info para iniciar sesión. Otra función maneja la autenticación cuando alguien intenta loguearse. Y también incluí una función para cerrar la sesión cuando el usuario quiere salir.
+
+RECORDATORIO:
+Compilar npm run dev
