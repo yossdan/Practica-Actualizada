@@ -11,3 +11,8 @@ Para las vistas, cree varios archivos Blade en `resources/views/products/`, como
 Incorpore jQuery para mejorar la experiencia del usuario, manejando eventos como la validacion de formularios y mostrando notificaciones. Incluir jQuery en las vistas fue sencillo gracias a los enlaces CDN que encontre.
 
 Finalmente, para probar todo, use el comando `php artisan serve` para iniciar el servidor de desarrollo y acceder a la aplicacion en `http://127.0.0.1:8000/products`. Ver que todo funcionaba fue super gratificante, aunque no fue facil y me tomo tiempo resolver varios problemas. Aprendi un poco mas sobre laravel.
+
+ACTUALIZACION:
+Para hacer el inicio de sesión en Laravel, primero usé un comando para crear un controlador nuevo. Escribí php artisan make:controller Auth\\AuthenticatedSessionController en la terminal. Esto creó un archivo donde pondríamos todo lo relacionado con el inicio y cierre de sesión.
+
+Después, dentro de ese archivo que creamos, añadí las funciones necesarias. Una fue para mostrar el formulario donde los usuarios ingresan su info para iniciar sesión. Otra función maneja la autenticación cuando alguien intenta loguearse. Y también incluí una función para cerrar la sesión cuando el usuario quiere salir.
