@@ -1,4 +1,3 @@
-Para configurar y desarrollar el proyecto Laravel, empece creando un nuevo proyecto con el comando `laravel new nombre-del-proyecto`. Despues, tuve que configurar la base de datos en el archivo `.env`. No tenia mucha idea al principio, asi que busque en blogs y tutoriales de YouTube sobre como configurar las credenciales de la base de datos para que Laravel se conectara a mi base de datos SQLite correctamente.
 
 Luego, cree un modelo y una migracion para los productos usando `php artisan make:model Product -m`. Esto genero un archivo de migracion que edite para definir la estructura de la tabla de productos, con campos como nombre, descripcion y precio. Hubo un par de problemitas en este paso porque no estaba muy familiarizado con las migraciones, pero encontre algunas soluciones en foros. Despues de ajustar todo, ejecute `php artisan migrate` para crear la tabla en la base de datos.
 
